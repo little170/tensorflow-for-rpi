@@ -8,3 +8,6 @@ or use docker pull
 ```
 docker pull little170/tensorflow:env
 ```
+
+
+reference: https://github.com/samjabrahams/tensorflow-on-raspberry-pi.git

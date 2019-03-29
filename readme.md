@@ -11,14 +11,6 @@ docker pull little170/tensorflow:env
 
 ---
 
-If you like to build from python2, please modify the dockerfile as follow
-
-(i) ~~From python:3.5~~ -> From: python2.7
-(ii) wget https://github.com/lhelontra/tensorflow-on-arm/releases/download/v1.13.1/tensorflow-1.13.1-cp27-none-linux_armv7l.whl
-(iii) pip3 install --upgrade tensorflow-1.13.1-cp27-none-linux_armv7l.whl
-
----
-
 For differente architechture you need different .whl packet.
 
 - Raspberry pi one/zero with openblas
